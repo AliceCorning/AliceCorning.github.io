@@ -134,6 +134,10 @@ img {
     display: block;
 }
 
+ul {
+  padding: 2em;
+}
+
 p {
     text-align: justify;
     font-size: 18;
