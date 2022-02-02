@@ -78,3 +78,79 @@ span.stage_directions_inline {
 
 span.character_beforespeech {
 }
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 249, 246);
+}
+
+main {
+    
+    background-color: rgb(250, 249, 246);
+    color: black;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 900px; /*restricting to max size*/
+    /*margin = outside, padding = inside; em refers to text within the block */
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    width: 30%;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: /*'margin' sets margin to every direction, unless put four definitions in (clockwise)*/ .5em /*auto works out what is remaining based on what's left: centres*/;
+}
+
+section {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: .5em;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; /*all American spellings*/
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 8px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-family: 'Arial Narrow Bold', Arial, Impact, sans-serif;
+}
+
+img {
+    width: 100%; /*percentage of parent element*/
+    display: block;
+}
+
+p {
+    text-align: justify;
+    font-size: 18;
+    }
+
+li {
+    font-size: 17px;
+}
+
+footer {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        width: 100%;
+    }
+}
