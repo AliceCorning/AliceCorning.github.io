@@ -40,45 +40,6 @@
     padding: 20px auto;
   }
   
-  /* If you have created any new stlyes in InDesign and used export tags then you need to add them here */
-  
-  section.dramatis {
-  }
-  section.play {
-  }
-  div.sceneImage {
-  }
-  h1.act {
-  }
-  p.character {
-  }
-  p.charactername {
-  }
-  h1.dramatishead {
-  }
-  h2.firstscene {
-  }
-  h2.location {
-  }
-  p.play_location {
-  }
-  p.prose {
-  }
-  h2.scene {
-  }
-  p.song {
-  }
-  h2.stagedirection {
-  }
-  p.verseline {
-  }
-  span.character_role {
-  }
-  span.stage_directions_inline {
-  }
-  
-  span.character_beforespeech {
-  }
   
   body {
       font-family: Arial, Helvetica, sans-serif;
