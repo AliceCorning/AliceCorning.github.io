@@ -1,0 +1,436 @@
+/* This stylesheet is where to add styles for your Shakespeare Play */
+/*We usually add something general for the body*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+html {
+  scroll-padding-top: 200px;;
+}
+
+body {
+  font-family: arial, verdana, sans-serif;
+  margin: auto 4em;
+  background-color: rgb(250, 249, 246);
+  
+  /*your style rules go in here */
+}
+
+section {
+  border: 0;
+}
+
+/*Here follows the class names that you will have in your html*/
+/*You may have more if you added styles in InDesign*/
+/*You need to add the style attributes between the curly brackets*/
+
+/* the following may not be used but it doesn't matter if they are listed here  */
+
+/* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
+
+h1.title {
+  margin: 2em auto 1em auto;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px
+}
+
+section.dramatis {
+  margin: 2em auto;
+  border: .5em solid black;
+  padding: 2em 1em 1em 1em;
+  width: 50%;
+  text-align: center;
+}
+
+h1.dramatishead, p.charactername {
+  text-align: center;
+}
+
+section.play {
+  width: 40%;
+  margin: auto;
+}
+
+h1.act {
+  font-size: 60px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  margin: auto;
+  text-align: center;
+}
+p.character {
+  font-weight: 700;
+  margin: 1em auto -1.1em auto;
+}
+p.charactername {
+  font-weight: 700;
+}
+h1.dramatishead {
+  text-decoration: underline;
+  margin-bottom: .5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+}
+h2.firstscene {
+  margin-top: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+  text-align: center;
+
+}
+h2.location {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 1.5em 0 0 0;
+  text-align: center;
+}
+p.play_location {
+  font-style: italic;
+}
+p.prose {
+  margin: 0 0 0.4em 9em;
+  text-align: justify;
+}
+
+p.Prose-Letter {
+  margin: 0 0 0.8em 9em;
+  text-align: justify;
+}
+
+h2.scene {
+  margin-top: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+
+h2.stagedirection {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px 0 10px 150px;
+  text-align: right;
+  font-style: italic;
+}
+
+h2.stagedirection_special {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 1.5em 0 10px 150px;
+  text-align: right;
+  font-style: italic;
+}
+
+.verseline {
+  margin: 0 0 0.4em 9em;
+}
+span.character_role {
+  font-weight: 400;
+}
+
+span.stage_directions_inline {
+  font-style: italic;
+}
+
+
+/* p.PlayEnd {
+  text-align: right;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 2em auto;
+  font-size: 20px;
+} */
+
+
+figure.beginning {
+  max-width: 500px;
+  margin: 0 auto 4em auto;
+}
+
+img.beginning {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img.crown {
+  display: block;
+  width: 150px;
+  margin: 3em auto 0 auto;
+}
+
+div.act_beginning {
+  max-width: 400px;
+  margin: auto;
+}
+
+img.act_beginning {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+figure.location {
+  border: 2px solid black;
+  margin: 1em auto;
+  max-width: 350px;
+  padding: .5em;
+}
+
+img.location {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+p.caption {
+  text-align: center;
+  font-size: smaller;
+  margin-top: 3px;
+  font-style: italic;
+}
+
+figure.end {
+  margin: 3em 0 5em auto;
+  max-width: 30%;
+}
+
+img.end {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure.letter {
+  max-width: 200px;
+  margin: 1em auto;
+}
+
+img.letter {
+  width: 100%;
+  height: auto;
+}
+
+img.arrow {
+  width: 70px;
+}
+
+div.back_to_top {
+  position: fixed;
+  bottom: 4em;
+  right: 6em;
+  opacity: 0.9;
+}
+
+/* contents */
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(250, 249, 246);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  margin-right: .3em;
+  margin-top: .1em;
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  border-bottom: 2px solid black; 
+}
+
+nav ul li {
+  flex: 0 0 8rem; /*the same as flex-grow, flex-shrink, flex-basis */
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: .5rem 1rem;
+  display: block;
+  color:black;
+  font-size: 19px;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: rgb(250, 249, 246);
+}
+
+nav ul li a:hover {
+color: rgb(250, 249, 246);
+}
+
+li ul {
+  display: none;
+  position: absolute;
+}
+
+li ul li a {
+  padding: 0.3rem 1.5rem;
+}
+
+nav ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li ul {
+ 
+  background-color: lightgray;
+  border: none;
+  /* border around scenes in nav */ 
+}
+
+nav ul li ul li {
+  flex: 0 1 auto;
+  width: 8rem; /* the same as the value for flex-basis on the parent li */
+  padding: .5em;
+}
+
+nav ul li ul li a {
+  font-size: 15px;
+  text-align: center;
+}
+/* above is the to change scene text in nav */
+
+li.home {
+  margin-right: auto;
+  max-width: 75px;
+  margin-top: .5em;
+}
+
+@media only screen and (max-width: 1250px) {
+  body {
+    margin: auto;
+  }
+
+  figure.beginning {
+    max-width: 300px;
+  }
+
+  section.play {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  section.play {
+    width: 70%;
+  }
+
+  div.back_to_top {
+    position: fixed;
+    bottom: 3em;
+    right: 1em;
+    opacity: 0.6;
+  }
+
+} 
+
+@media only screen and (max-width: 900px) {
+  section.dramatis {
+    width: auto;
+    min-width: 50%;
+    max-width: 80%
+  }
+
+  figure.location {
+    border: none;
+    margin: auto;
+  }
+  
+  /* img.location {
+    border: 1px solid black;
+  } */
+
+  p.play_location {
+    margin-top: 1.5em;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+
+  /*   ~ the tilda points to the next sibling selector */
+
+  input[type="checkbox"]:checked ~ ul {
+    display: block;
+  }
+
+  li ul {
+    position: static;
+  }
+  nav ul li {
+    flex: 0 0 auto; /*the same as flex-grow, flex-shrink, flex-basis */
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 13px;
+  }
+
+  section.dramatis {
+    border:none;
+    width: 100%;
+    margin: none;
+    max-width: none;
+    min-width: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  h2.stagedirection, h2.stagedirection_special {
+    font-size: 13px;
+    margin: 1.5em 0 10px 75px;
+  }
+
+  section.play {
+    width: 90%;
+  }
+  
+  figure.beginning {
+    max-width: 80%;
+  }
+
+  p.verseline, p.prose, p.prose_letter {
+    margin: 0 0 0.4em 8em;
+  }
+
+  img.crown {
+    width: 100px;
+  }
+  
+  h1.act {
+    font-size: 50px;
+    margin-bottom: .25em;;
+  }
+}
