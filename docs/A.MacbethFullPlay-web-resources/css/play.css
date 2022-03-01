@@ -92,12 +92,10 @@ p.play_location {
 }
 p.prose {
   margin: 0 0 0.4em 9em;
-  text-align: justify;
 }
 
 p.Prose-Letter {
   margin: 0 0 0.8em 9em;
-  text-align: justify;
 }
 
 h2.scene {
